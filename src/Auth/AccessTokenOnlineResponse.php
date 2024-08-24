@@ -8,9 +8,9 @@ final class AccessTokenOnlineResponse extends AccessTokenResponse
 {
     protected string $accessToken;
     protected string $scope;
-    private readonly int $expiresIn;
-    private readonly string $associatedUserScope;
-    private readonly ?AccessTokenOnlineUserInfo $associatedUser;
+    private int $expiresIn;
+    private string $associatedUserScope;
+    private ?AccessTokenOnlineUserInfo $associatedUser;
 
     public function __construct(
         string $accessToken,

@@ -8,9 +8,9 @@ class PageInfo
 {
     private const LINK_HEADER_REGEXP = '/<([^<]+)>; rel="([^"]+)"/';
 
-    private readonly ?array $fields;
-    private readonly ?string $previousPageUrl;
-    private readonly ?string $nextPageUrl;
+    private ?array $fields;
+    private ?string $previousPageUrl;
+    private ?string $nextPageUrl;
 
     /**
      * PageInfo constructor.

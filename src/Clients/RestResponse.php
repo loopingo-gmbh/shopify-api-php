@@ -6,7 +6,7 @@ namespace Shopify\Clients;
 
 class RestResponse extends HttpResponse
 {
-    private readonly ?PageInfo $pageInfo;
+    private ?PageInfo $pageInfo;
 
     /**
      * {@inheritDoc}

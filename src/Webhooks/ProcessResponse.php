@@ -6,8 +6,8 @@ namespace Shopify\Webhooks;
 
 final class ProcessResponse
 {
-    private readonly bool $success;
-    private readonly ?string $errorMessage;
+    private bool $success;
+    private ?string $errorMessage;
 
     public function __construct(bool $success, ?string $errorMessage = null)
     {

@@ -6,7 +6,7 @@ namespace Shopify\Webhooks;
 
 final class RegisterResponse
 {
-    private readonly bool $success;
+    private bool $success;
     /** @var string|array|null */
     private $body;
 

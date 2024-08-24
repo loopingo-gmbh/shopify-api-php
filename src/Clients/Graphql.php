@@ -12,7 +12,7 @@ use Shopify\Exception\MissingArgumentException;
 
 class Graphql
 {
-    private readonly Http $client;
+    private Http $client;
     protected ?string $token;
 
     /**

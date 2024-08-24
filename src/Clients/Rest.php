@@ -9,7 +9,7 @@ use Shopify\Exception\MissingArgumentException;
 
 class Rest extends Http
 {
-    private readonly ?string $accessToken;
+    private ?string $accessToken;
 
     /**
      * Rest Client constructor.

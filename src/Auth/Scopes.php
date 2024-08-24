@@ -8,8 +8,8 @@ final class Scopes
 {
     public const SCOPE_DELIMITER = ',';
 
-    private readonly array $compressedScopes;
-    private readonly array $expandedScopes;
+    private array $compressedScopes;
+    private array $expandedScopes;
 
     /**
      * @param string|array $scopes

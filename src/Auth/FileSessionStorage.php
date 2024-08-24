@@ -9,7 +9,7 @@ namespace Shopify\Auth;
  */
 class FileSessionStorage implements SessionStorage
 {
-    private readonly string $path;
+    private string $path;
 
     /**
      * Initializes FileSessionStorage object
